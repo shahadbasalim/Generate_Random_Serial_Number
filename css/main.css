@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+.serial {
+    width: 200px;
+    background-color: thistle;
+    padding: 20px;
+    margin: 20px auto ;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 4px;
+    height: 66px;
+}
+.generate {
+    display: block;
+    background-color: purple;
+    width: fit-content;
+    margin: auto;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.3s;
+}
+.generate:hover {
+    background-color: #650165;
+}
+
+
